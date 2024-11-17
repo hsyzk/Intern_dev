@@ -69,46 +69,46 @@ export default {
     padding: 0px;
     align-items: center;
     margin-bottom: 20px;
-    background-color: #3a3a3a; /* ヘッダーの背景色 */
+    background-color: #3a3a3a;
     color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .logo img {
-    height: 80px; /* ロゴの高さを減らす */
+    height: 80px;
 }
 
 .title h1 {
     margin: 0;
-    font-size: 27px; /* タイトルのフォントサイズを減らす */
+    font-size: 27px;
     margin-right: 30px;
 }
 
 .menu {
     cursor: pointer;
-    padding: 5px; /* メニューのパディングを減らす */
+    padding: 5px;
     margin-left: 20px;
     margin-right: auto;
 }
 
 .bar {
     display: block;
-    width: 40px; /* バーの幅を減らす */
+    width: 40px;
     height: 5px;
-    margin: 5px auto; /* バーの間隔を減らす */
+    margin: 5px auto;
     background-color: white;
 }
 
 .dropdown {
     position: absolute;
-    left: 0; /* 左側に配置 */
-    top: 100px; /* ヘッダーの下に配置 */
-    width: 15%; /* 画面の3分の1を占める */
-    height: calc(100% - 100px); /* 高さを100%からヘッダーの高さを引いた分に設定 */
+    left: 0;
+    top: 100px;
+    width: 15%;
+    height: calc(100% - 100px);
     background-color: #ffffff;
     border-right: 1px solid #ffffff;
     box-shadow: 7px 0 5px rgba(0, 0, 0, 0.2);
-    z-index: 1000; /* メニューが他の要素の上に表示されるように */
+    z-index: 1000;
 }
 
 .dropdown ul {
@@ -124,11 +124,11 @@ export default {
 }
 
 .dropdown li:hover {
-    background-color: #f9f9f9; /* ホバー時の背景色 */
+    background-color: #f9f9f9;
 }
 
 .content {
     padding: 20px;
-    transition: margin-left 0.3s ease; /* スライドアニメーション */
+    transition: margin-left 0.3s ease;
 }
 </style>
